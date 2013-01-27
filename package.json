@@ -1,0 +1,34 @@
+{
+	"name": "grunts",
+	"description": "Proprietary grunt tasks",
+	"author": "Harald Rudell <harald@allgoodapps.com> (http://www.haraldrudell.com)",
+	"keywords": [
+	],
+	"version": "0.0.0",
+	"private": true,
+	"contributors": [
+		{
+			"name": "Harald Rudell",
+			"email": "harald@allgoodapps.com",
+			"web": "http://blog.haraldrudell.com"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://gt:grunts"
+	},
+	"devDependencies": {
+		"grunt": ">= 0.4.0rc7",
+		"mochawrapper": ">= 0.0.34"
+	},
+	"dependencies": {
+	},
+	"main": "./lib/grunts",
+	"scripts": {
+		"test": "mocha --ui exports --reporter spec",
+		"monitor": "mocha --ui exports --reporter min --watch",
+		"debugtest": "mocha --debug-brk --ui exports --reporter spec",
+		"coverage": "mochacoverage",
+		"changelog": "git log --format=\"%ad %s\" --date=short"
+	}
+}
