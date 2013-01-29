@@ -3,6 +3,11 @@
 	"description": "Proprietary grunt tasks",
 	"author": "Harald Rudell <harald@allgoodapps.com> (http://www.haraldrudell.com)",
 	"keywords": [
+		"gruntplugin",
+		"mochawrapper",
+		"mocha",
+		"version",
+		"exports"
 	],
 	"version": "0.0.0",
 	"private": true,
@@ -30,5 +35,8 @@
 		"debugtest": "mocha --debug-brk --ui exports --reporter spec",
 		"coverage": "mochacoverage",
 		"changelog": "git log --format=\"%ad %s\" --date=short"
+	},
+	"engines": {
+		"node": ">= 0.8.0"
 	}
 }
