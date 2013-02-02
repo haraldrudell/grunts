@@ -1,10 +1,10 @@
 <h1>Grunts</h1>
 <p>Useful grunt tasks.</p>
-<p>&copy; 2013 [Harald Rudell](http://www.haraldrudell.com) wrote this for node in January, 2013</p>
+<p>&copy; 2013 <a href=http://www.haraldrudell.com>Harald Rudell</a> wrote this for node in January, 2013 MIT License</p>
 <h2>How to Use</h2>
 Add to your Gruntfile.js:
 ```js
-	grunt.loadNpmTasks('grunts')
+grunt.loadNpmTasks('grunts')
 ```
 Add the project dependency to your project:
 ```
@@ -28,5 +28,5 @@ Done, without errors.
 <h3>grunt test</h3>
 <p>Runs tests provided by the mochawrapper module.</p>
 <h2>Notes</h2>
-<p>&copy; 2013 [Harald Rudell](http://www.haraldrudell.com) wrote this for node in January, 2013</p>
-<p>Please suggest better ways, new features, and possible difficulties on <a  href=https://github.com/haraldrudell/haraldutil>github</a></p>
+<p>&copy; 2013 <a href=http://www.haraldrudell.com>Harald Rudell</a> wrote this for node in January, 2013 MIT License</p>
+<p>Please suggest better ways, new features, and possible difficulties on <a  href=https://github.com/haraldrudell/grunts>github</a></p>
