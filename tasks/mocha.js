@@ -1,6 +1,6 @@
 // mocha.js
 // Run tests using mochawrapper module
-// © Harald Rudell 2013 <harald@allgoodapps.com> All rights reserved.
+// © 2013 Harald Rudell  <harald@therudells.com> MIT License
 
 // http://nodejs.org/api/path.html
 var path = require('path')

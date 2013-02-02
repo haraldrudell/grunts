@@ -1,6 +1,6 @@
 // gruntexports.js
 // List module exports
-// © 2013 Harald Rudell  <harald@allgoodapps.com> MIT License
+// © 2013 Harald Rudell  <harald@therudells.com> MIT License
 
 // http://nodejs.org/api/path.html
 var path = require('path')

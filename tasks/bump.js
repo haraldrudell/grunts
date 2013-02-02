@@ -1,6 +1,6 @@
 // gruntbump.js
 // Increase version number
-// © 2013 Harald Rudell  <harald@allgoodapps.com> MIT License
+// © 2013 Harald Rudell  <harald@therudells.com> MIT License
 module.exports = function(grunt) {
 	grunt.registerTask('bump', 'Increment the version number.', modifyVersion)
 
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 		package.version = increaseVersion(package.version, versionType)
 
 		grunt.file.write(PACKAGE_FILE, JSON.stringify(package, null, indentation))
-		grunt.log.ok('Version bumped to:', package.version)
+		grunt.log.ok('Version bumped to: ' + package.version)
 	}
 	function increaseVersion(version, versionType) { // compute new version number
 		if (!version) version = '0.0.0'
